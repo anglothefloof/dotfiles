@@ -7,5 +7,18 @@ function fish_user_key_bindings
 end
 
 alias config="git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
+alias cgf="config fetch --prune"
+alias cgc="config commit -m"
+alias cgps="config push"
+alias cgpl="config pull"
+alias cgs="config status"
+alias cga="config add"
+
+alias gf="git fetch --prune"
+alias gc="git commit -m"
+alias gps="git push"
+alias gpl="git pull"
+alias gs="git status"
+alias ga="git add ."
 
 starship init fish | source
