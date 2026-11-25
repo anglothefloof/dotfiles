@@ -8,3 +8,6 @@ normal = { family = "CaskaydiaCove Nerd Font", style = "Regular" }
 key = "Back"
 mods = "Control"
 chars = "\u001b\u007f"
+
+[terminal]
+shell = "/usr/bin/tmux"
