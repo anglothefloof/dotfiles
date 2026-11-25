@@ -4,6 +4,8 @@ set fish_cursor_insert underscore blink
 
 function fish_user_key_bindings
     bind -M insert \b backward-kill-word
+    bind -M insert ctrl-h backward-kill-word
+    bind -M insert ctrl-backspace backward-kill-word
 end
 
 alias config="git --git-dir=$HOME/.dotfiles --work-tree=$HOME"

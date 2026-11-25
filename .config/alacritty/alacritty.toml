@@ -4,10 +4,42 @@ dimensions = { columns = 160, lines = 48 }
 [font]
 normal = { family = "CaskaydiaCove Nerd Font", style = "Regular" }
 
-[[keyboard.bindings]]
-key = "Back"
-mods = "Control"
-chars = "\u001b\u007f"
+# [[keyboard.bindings]]
+# key = "Back"
+# mods = "Control"
+# chars = "\u001b[127;5u"
 
 [terminal]
 shell = "/usr/bin/tmux"
+
+[colors.primary]
+foreground = "#bac3cc"
+background = "#0b121f"
+
+[colors.cursor]
+text = "#0b121f"
+cursor = "#bac3cc"
+
+[colors.selection]
+text = "#e6edf3"
+background = "#264f78"
+
+[colors.normal]
+black = "#484f58"
+red = "#a14842"
+green = "#287a33"
+yellow = "#a17518"
+blue = "#4889d4"
+magenta = "#8e74db"
+cyan = "#21747a"
+white = "#99a2ad"
+
+[colors.bright]
+black = "#6e7681"
+red = "#c75b54"
+green = "#30913d"
+yellow = "#bd8b20"
+blue = "#5096e6"
+magenta = "#9a7eed"
+cyan = "#25838a"
+white = "#dedede"
