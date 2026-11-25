@@ -1,0 +1,33 @@
+vim.opt.shiftwidth = 4
+vim.opt.tabstop = 4
+vim.opt.expandtab = true
+vim.opt.smarttab = true
+vim.opt.autoindent = true
+vim.opt.number = true
+vim.opt.hidden = true
+vim.opt.splitright = true
+vim.opt.showcmd = false
+vim.opt.signcolumn = "yes"
+vim.opt.updatetime = 300
+vim.opt.grepprg = "rg --vimgrep"
+vim.opt.grepformat = "%f:%l:%c:%m"
+vim.opt.termguicolors = true
+vim.opt.scrolloff = 10
+vim.opt.showmode = false
+vim.opt.foldlevelstart = 99
+vim.opt.autoread = true
+vim.opt.wrap = false
+vim.opt.linebreak = true
+vim.opt.breakindent = true
+vim.opt.showbreak = " \\n "
+vim.opt.completeopt = { "menuone", "noinsert", "noselect" }
+vim.opt.shortmess:append("c")
+vim.g.loaded_python3_provider = 0
+vim.g.loaded_rupy_provider = 0
+vim.g.loaded_node_provider = 0
+vim.opt.listchars = {
+  tab = "  >",
+  trail = "-",
+}
+vim.diagnostic.config({ virtual_text = true })
+require("vim._core.ui2").enable({ enable = true })
